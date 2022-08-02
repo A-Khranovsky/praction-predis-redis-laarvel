@@ -9,7 +9,17 @@ class HomeController extends Controller
 {
     public function index()
     {
-        Redis::set('name', 'Alex');
-        return Redis::get('name');
+        return view ('index');
+    }
+
+    public function get()
+    {
+        return view('name', ['name' => Redis::get('name')]);
+    }
+
+    public function set(Request $request)
+    {
+        Redis::set('name', $request->name);
+        return redirect('/name');
     }
 }
