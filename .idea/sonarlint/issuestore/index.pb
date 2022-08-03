@@ -152,3 +152,11 @@ V
 .env.example,d\4\d4dae00d11854b35292c2b8a30515a9a0aa2d871
 @
 public/.htaccess,c\9\c9fe70f275af093c7fb3ed73b451fadc91069bac
+F
+app/Console/Kernel.php,7\c\7cc3fc289d685e79a47c29e2cb905c549625e76b
+S
+#app/Http/Controllers/Controller.php,2\e\2ed23e1749f02eb8e561f0a531d07863e7cf9fb9
+C
+app/Models/User.php,a\9\a90f2e50cb06863b54effced365aa5f1fe7d9c88
+W
+'app/Http/Controllers/NameController.php,7\f\7fded3eedebbf4cb572852898d09ccc7b7deea8b
