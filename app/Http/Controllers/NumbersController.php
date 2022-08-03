@@ -9,8 +9,11 @@ class NumbersController extends Controller
 {
     public function set(Request $request)
     {
-        Redis::mset('first', $request->first_number,
-                'second', $request->second_number
+        Redis::mset(
+            'first',
+            $request->first_number,
+            'second',
+            $request->second_number
         );
         return redirect()->route('numbers.get');
     }
@@ -33,9 +36,9 @@ class NumbersController extends Controller
     {
         Redis::pipeline(function ($pipe) {
             for ($i = 0; $i < 20; $i++) {
-                $pipe->hset('q', $i, $i);
+                $pipe->hSet('myHash', $i, $i);
             }
         });
-        return view('numbers', ['array' => Redis::hGetAll('q')]);
+        return view('numbers', ['array' => Redis::hGetAll('myHash')]);
     }
 }

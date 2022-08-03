@@ -1,12 +1,6 @@
 
-F
-app/Console/Kernel.php,7\c\7cc3fc289d685e79a47c29e2cb905c549625e76b
 V
 &app/Providers/RouteServiceProvider.php,d\4\d4febfd545b5694c9448dd8d6de9bf0531b0db61
-S
-#app/Http/Controllers/Controller.php,2\e\2ed23e1749f02eb8e561f0a531d07863e7cf9fb9
-C
-app/Models/User.php,a\9\a90f2e50cb06863b54effced365aa5f1fe7d9c88
 _
 /app/Http/Middleware/RedirectIfAuthenticated.php,4\0\40d54a318fd625143db9d72eb6edc2d5c100b557
 T
@@ -158,5 +152,3 @@ V
 .env.example,d\4\d4dae00d11854b35292c2b8a30515a9a0aa2d871
 @
 public/.htaccess,c\9\c9fe70f275af093c7fb3ed73b451fadc91069bac
-W
-'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47
