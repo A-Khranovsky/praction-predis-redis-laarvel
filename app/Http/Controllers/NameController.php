@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redis;
 
-class HomeController extends Controller
+class NameController extends Controller
 {
     public function index()
     {

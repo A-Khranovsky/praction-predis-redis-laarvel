@@ -115,8 +115,6 @@ B
 ?
 config/mail.php,2\d\2d414a971ebe9a05bd929c2805b4c963e8b1ea8d
 @
-config/cache.php,8\5\85b552139c7f666652636ddf8db9133860f81e48
-@
 config/queue.php,e\b\eb49dc3fa7268b6ade2466fb9f9bc11bb4d71410
 >
 config/app.php,7\3\734f7be25e8008acc7129e73cd116d5de913e6fd
@@ -154,3 +152,11 @@ U
 %app/Providers/AuthServiceProvider.php,a\5\a526ceaeed37cec3622903d924e7bbaf01d42971
 V
 &app/Providers/EventServiceProvider.php,6\d\6d80af2c8eccc15fa62a616067d4270df372f87d
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+<
+.env.example,d\4\d4dae00d11854b35292c2b8a30515a9a0aa2d871
+@
+public/.htaccess,c\9\c9fe70f275af093c7fb3ed73b451fadc91069bac
+W
+'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47

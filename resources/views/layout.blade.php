@@ -6,5 +6,7 @@
 </head>
 <body>
 @yield('content')
+<br />
+<a href="{{route('home')}}">Home</a>
 </body>
 </html>
